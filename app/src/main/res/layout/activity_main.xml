@@ -44,17 +44,17 @@
             android:id="@+id/prev_button"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:drawableEnd="@drawable/arrow_back"
+            android:drawableEnd="@drawable/arrow_left"
+
             android:layout_marginEnd="18dp"
-            style="?android:attr/button"
-            />
+            style="?android:attr/button" />
         <Button
             android:id="@+id/next_button"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:drawableEnd="@drawable/arrow_next"
-            style="?android:attr/button"
-            />
+            android:drawableEnd="@drawable/arrow_right"
+
+            style="?android:attr/button" />
     </LinearLayout>
 
 </LinearLayout>

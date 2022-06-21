@@ -2,10 +2,10 @@ package com.bignerdranch.android.geomain
 
 import android.annotation.SuppressLint
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.lifecycle.ViewModel
 
-private const val TAG = "QuizViewModel"
 
 class QuizViewModel : ViewModel() {
     var currentIndex = 0
@@ -17,9 +17,9 @@ class QuizViewModel : ViewModel() {
     @SuppressLint("StaticFieldLeak")
     lateinit var  falseButton: Button
     @SuppressLint("StaticFieldLeak")
-    lateinit var nextButton: Button
+    lateinit var nextButton: ImageButton
     @SuppressLint("StaticFieldLeak")
-    lateinit var prevButton: Button
+    lateinit var prevButton: ImageButton
     @SuppressLint("StaticFieldLeak")
     lateinit var questionTextView: TextView
 
