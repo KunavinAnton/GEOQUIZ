@@ -2,7 +2,6 @@ package com.bignerdranch.android.geomain
 
 import android.annotation.SuppressLint
 import android.widget.Button
-import android.widget.ImageButton
 import android.widget.TextView
 import androidx.lifecycle.ViewModel
 
@@ -17,9 +16,9 @@ class QuizViewModel : ViewModel() {
     @SuppressLint("StaticFieldLeak")
     lateinit var  falseButton: Button
     @SuppressLint("StaticFieldLeak")
-    lateinit var nextButton: ImageButton
+    lateinit var nextButton: Button
     @SuppressLint("StaticFieldLeak")
-    lateinit var prevButton: ImageButton
+    lateinit var prevButton: Button
     @SuppressLint("StaticFieldLeak")
     lateinit var questionTextView: TextView
 
